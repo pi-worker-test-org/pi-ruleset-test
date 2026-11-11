@@ -1,0 +1,5 @@
+name: wf	on: [push]
+jobs:
+  w:
+    runs-on: ubuntu-latest
+    steps: [{run: echo ok}]
